@@ -1,0 +1,4 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteRule ^teste?$ ./teste.php [NC,L]
+</IfModule>
